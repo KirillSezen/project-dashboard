@@ -1,8 +1,3 @@
-
-const App = () => {
-	return (
-		<div>App</div>
-	)
-}
-
-export default App
+export const sum = (a: number, b: number) : number => {
+		return a + b
+	}
